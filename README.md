@@ -13,7 +13,7 @@ A system to using ESP8266s to control addressable LEDs through a WiFi network.
 -Navigate to the repositry in your comand line.
 
 ## Get Espressif Tool
--Go to https://github.com/espressif/esptool/ in your browser
+-Go to "https://github.com/espressif/esptool/" in your browser
 -Follow the install isntructions
 
 ##Flash bin onto ESP8266
