@@ -18,15 +18,15 @@ A system to using ESP8266s to control addressable LEDs through a WiFi network.
 
 ## Flash bin onto ESP8266
 - the command I use "esptool.py --port COM4 write_flash 0x00000 new_full_led_system.ino.bin"
--- Specifying the port is only necessary if you have multiple COMs in use.
--- Don't miss the .bin the file will still compile, but it won't work correctly.
--- There is a serial port connected on 9600 and you can monitor it to make sure it is connecting. It is fully set up when the monitor prints "MQTT connected". Then all commands will also show up in the monitor.
+- Specifying the port is only necessary if you have multiple COMs in use.
+- Don't miss the .bin the file will still compile, but it won't work correctly.
+- There is a serial port connected on 9600 and you can monitor it to make sure it is connecting. It is fully set up when the monitor prints "MQTT connected". Then all commands will also show up in the monitor.
 
 ## Create AWS IOT Thing
 - Navigate to "leds.mrcatnaps.com"
 - Click "Login with Amazon" and login
 - Copy the new Thing Name (right most column)
--- If you are going to pair this with Alexa, Edit the Custom Invoke Name to the word you want to invoke with Alexa (bedroom), and click "Update"
+- If you are going to pair this with Alexa, Edit the Custom Invoke Name to the word you want to invoke with Alexa (bedroom), and click "Update"
 
 ## Setup ESP8266
 - Connect to WiFi "MrCatNaps LED Setup"
