@@ -17,7 +17,7 @@ A system to using ESP8266s to control addressable LEDs through a WiFi network.
 - Follow the install isntructions
 
 ## Flash bin onto ESP8266
-- the command I use "esptool.py --port COM4 write_flash 0x00000 my_app_file.ino.bin"
+- the command I use "esptool.py --port COM4 write_flash 0x00000 new_full_led_system.ino.bin"
 -- Specifying the port is only necessary if you have multiple COMs in use.
 -- Don't miss the .bin the file will still compile, but it won't work correctly.
 -- There is a serial port connected on 9600 and you can monitor it to make sure it is connecting. It is fully set up when the monitor prints "MQTT connected". Then all commands will also show up in the monitor.
