@@ -30,6 +30,12 @@ A system to using ESP8266s to control addressable LEDs through a WiFi network.
 -Paste the Thing Name from the previous step in here.
 -Click Connect/Disconnect (wifi will disconnect and you can reconnect to your normal network)
 ##Seting up Alexa (Optional)
+-Navigate to "echo.amazon.com"
+-Intall the home skill at https://www.amazon.com/Mr-CatNaps-LEDs/dp/B079PQJNTM
+-Click the "Smart Home" tab on the left pane in the echo home menu.
+-Click on "Devices"
+-Click "Discover"
+-Your devices should be found and you can use Alexa commands. "Alexa turn off bedroom." "Alexa set bedroom brightness 10."
 
 #Congratulations you are set up!
 -Navigate to "leds.mrcatnaps.com"
